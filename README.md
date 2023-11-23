@@ -67,15 +67,16 @@ A condition is set for each value from one to six which displays the dice roll f
         print("[-----]")
 ```
 ## Step 6 :
-The variable 'x' is initiated by the user. If the user inputs 'y', the loop repeats. If the user inputs 'n', the flow of control exits the loop.
+The variable 'x' is initiated by the user. If the user inputs 'r', the loop repeats. If the user inputs 'x', the flow of control exits the loop.
 ```
-x=input("press y to roll again and n to exit:")
+x=input("press r to roll again and x to exit:")
 ```
 # Entire program:
 ```
 import random
-x = "r"
-while x == "r":	
+x = "y"
+while x == "y":
+	no = random.randint(1,6)
 	if no == 1:
 		print("[-----]")
 		print("[     ]")
@@ -84,9 +85,9 @@ while x == "r":
 		print("[-----]")
 	if no == 2:
 		print("[-----]")
-		print("[  0  ]")
+		print("[ 0   ]")
 		print("[     ]")
-		print("[  0  ]")
+		print("[   0 ]")
 		print("[-----]")
 	if no == 3:
 		print("[-----]")
@@ -113,7 +114,6 @@ while x == "r":
 		print("[0 0 0]")
 		print("[-----]")
 		
-	x=input("press r to roll again and x to exit:")
+	x=input("press y to roll again and n to exit:")
 	print("\n")
-
 ```
