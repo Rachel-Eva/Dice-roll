@@ -117,3 +117,5 @@ while x == "y":
 	x=input("press y to roll again and n to exit:")
 	print("\n")
 ```
+## Output :
+![py](https://github.com/Rachel-Eva/Dice-roll/assets/145921131/9568919c-eea7-42fb-a846-34f6f3d3f58f)
